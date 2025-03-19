@@ -53,7 +53,5 @@ for (var i = 0; i < n; i++) {
     s += '\n';
 }
 
-console.log(s);
-
 
 console.log(s);
