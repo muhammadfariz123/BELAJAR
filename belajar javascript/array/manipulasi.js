@@ -86,7 +86,41 @@
 
 // 7. slice (mengiris sebuah array menjadi array yang baru)
 // slice(awal,akhir);
-var arr = ['sandika', 'fariz', 'andi', 'satria'];
-var arr2 = arr.slice(1,3);
-console.log(arr2.join('-')); // fariz - andi
-console.log(arr); // sandika - fariz - andi - satria
+// var arr = ['sandika', 'fariz', 'andi', 'satria'];
+// var arr2 = arr.slice(1,3);
+// console.log(arr2.join('-')); // fariz - andi
+
+
+
+
+// 8. foreach
+// var angka = [1,2,3,4,5,6,7,8];
+// var nama = ['fariz', 'galih', 'dika'];
+
+// nama.forEach(function(e, i){
+//     console.log('mahasiswa ke-' + (i + 1) + ' adalah : ' + e);
+// })
+// for (var i = 0; i < angka.length; i++) {
+//     console.log(angka[i]);
+// }
+//  angka.forEach(function(e) {
+//     console.log(e);
+//  })
+
+
+// 9. map : mengembalikan nilai array
+// var angka = [1,2,3,4,5,6,7,8];
+// var angka2 = angka.map(function(e) {
+//     return e * 2;
+// });
+// console.log(angka2.join(' - '));
+
+
+// 10. sort
+var angka = [1,5,10,20,6,2,1,5,6,];
+angka.sort(function(a,b) {
+    return a - b;
+})
+console.log(angka.join(' - ')); // 1 - 1 - 2 -
+console.log(angka.join(' - '));
+
