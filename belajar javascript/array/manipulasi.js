@@ -42,6 +42,8 @@
 // pop () : menghapus elemen array di akhir array
 // shift () : menghapus elemen array di awal array
 // unshift () : menambahkan elemen array di awal array
+// slice () : mengambil elemen array dari index awal sampai index akhir
+// splice () : menyambungkan sebuah elemen array di index tertentu
 
 
 
@@ -49,10 +51,10 @@
 
 
 // 1. join
-var arr = ['sandika', 'fariz', 'satria'];
-console.log(arr);
-console.log(arr.join()); 
-console.log(arr.join(' - ')); // sandika - fariz - satria
+// var arr = ['sandika', 'fariz', 'satria'];
+// console.log(arr);
+// console.log(arr.join()); 
+// console.log(arr.join(' - ')); // sandika - fariz - satria
 
 // 2. push
 // bisa langsung menambahkan beberapa
@@ -72,3 +74,19 @@ console.log(arr.join(' - ')); // sandika - fariz - satria
 // // 5.unshift
 // arr.unshift('dody');
 // console.log(arr);
+
+
+// 6.splice
+// splice(indexAwal, mauDihapusBerapa(opsional), elemenBaru1, elemenBaru2, ....)
+// var arr = ['sandika', 'fariz', 'satria'];
+// arr.splice(2, 0, 'dody', 'zaki');
+// console.log(arr.join('-'));
+// arr.splice(1, 2, 'dody', 'zaki');
+// console.log(arr.join('-'));
+
+// 7. slice (mengiris sebuah array menjadi array yang baru)
+// slice(awal,akhir);
+var arr = ['sandika', 'fariz', 'andi', 'satria'];
+var arr2 = arr.slice(1,3);
+console.log(arr2.join('-')); // fariz - andi
+console.log(arr); // sandika - fariz - andi - satria
