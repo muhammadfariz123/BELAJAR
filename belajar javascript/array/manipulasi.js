@@ -117,10 +117,24 @@
 
 
 // 10. sort
-var angka = [1,5,10,20,6,2,1,5,6,];
-angka.sort(function(a,b) {
-    return a - b;
-})
-console.log(angka.join(' - ')); // 1 - 1 - 2 -
-console.log(angka.join(' - '));
+// var angka = [1,5,10,20,6,2,1,5,6,];
+// angka.sort(function(a,b) {
+//     return a - b;
+// })
+// console.log(angka.join(' - ')); // 1 - 1 - 2 -
+// console.log(angka.join(' - '));
 
+
+// 11. filter & find
+// var angka = [1,2,3,4,5,6,7];
+// var angka2 = angka.filter(function(e){
+//     return e % 2 == 0;
+// });
+// console.log(angka2.join('-'));
+
+// find
+// var angka = [1,2,3,4,5,6,7];
+// var angka2 = angka.find(function(e){
+//     return e > 5;
+// });
+// console.log(angka2);
