@@ -56,7 +56,6 @@ var hapusPenumpang = function(namaPenumpang, penumpang) {
                 // jika tidak ada nama yang sama
                 // lanjutkan pencarian ke kursi berikutnya
                 console.log(namaPenumpang + "tidak ada di dalam angkot");
-                return penumpang;
             }
         }
     }
