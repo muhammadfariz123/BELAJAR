@@ -1,5 +1,5 @@
 // // DOM Selection Method
-// // getElementById() => element
+// // document.getElementById() => element
 // const judul = document.getElementById('judul');
 
 // judul.style.color = 'white'
@@ -7,7 +7,7 @@
 // judul.innerHTML = 'Belajar DOM';
 
 
-// // getElementsByTagName() => HTMLCollection
+// // document.getElementsByTagName() => HTMLCollection
 // const paragraf = document.getElementsByTagName('p');
 
 // for ( let i = 0; i < paragraf.length; i++)
@@ -19,7 +19,7 @@
 // h1.style.fontSize = '50px';
 
 
-// // getElementsByClassName() = HTMLCollection
+// // document.getElementsByClassName() = HTMLCollection
 // const p1 =getElementsByClassName('p1')[0];
 // p1.innerHTML = 'ini diubah dari javascript';
 
