@@ -32,7 +32,7 @@ p4.style.fontSize = '30px';
 const li2 = document.querySelector('section#b ul li:nth-child(2)');
 li2.style.backgroundColor = 'lightblue';
 
-// const p = document.querySelector('p');
+// const p = document.querySelector('p'); => mengembalikan satu element 
 // p.innerHTML = "ini diubah melalui javascript";
 
 // // querySelectorAll() = nodeList
@@ -40,3 +40,11 @@ const p = document.querySelectorAll('p');
 for (let i = 0; i < p.length; i++) {
     p[i].style.backgroundColor = 'lightblue';
 }
+
+// querySelector dan querySelectorAll mengubah tanpa mengganti struktur html yang ada
+
+// =======================
+
+const sectionB = document.querySelector('section#b');
+const p4 = sectionB.getElementsByTagName('p')[0];
+p4.style.backgroundColor = 'orange';
