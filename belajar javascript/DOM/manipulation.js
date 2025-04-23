@@ -64,7 +64,6 @@ console.log(
 ) // akan menampilkan false
 
 
-
 // element.classList.replace(); =>
 // untuk mengganti kelas yang ada dengan kelas yang baru
 p2.classList.replace('dua', 'tiga'); // akan mengganti kelas 'dua' dengan 'tiga'
