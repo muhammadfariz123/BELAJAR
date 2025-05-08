@@ -33,7 +33,7 @@
 
 
 // =======================
-// constructor funstion (keyword new)
+// constructor function (keyword new)
 function Mahasiswa (nama, umur, ipk, jurusan) {
     this.nama = nama;
     this.umur = umur;
