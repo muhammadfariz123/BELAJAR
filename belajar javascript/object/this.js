@@ -20,8 +20,6 @@
     // }
     // obj.halo();
 // this mengembalikan object yang bersangkutan
-    
-    
 
 // ===================================================
 // cara 3 - constructor
